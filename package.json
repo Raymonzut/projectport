@@ -1,0 +1,19 @@
+{
+  "name": "projectport",
+  "version": "0.0.0",
+  "description": "Nodejs Portscanner for localhost projects",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raymonzut/projectport.git"
+  },
+  "author": "Raymonzut",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Raymonzut/projectport/issues"
+  },
+  "homepage": "https://github.com/Raymonzut/projectport#readme"
+}
