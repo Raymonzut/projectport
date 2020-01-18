@@ -4,7 +4,8 @@
   "description": "Nodejs Portscanner for localhost projects",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "test-watch": "mocha --watch"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/Raymonzut/projectport/issues"
   },
-  "homepage": "https://github.com/Raymonzut/projectport#readme"
+  "homepage": "https://github.com/Raymonzut/projectport#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.0.0"
+  }
 }
